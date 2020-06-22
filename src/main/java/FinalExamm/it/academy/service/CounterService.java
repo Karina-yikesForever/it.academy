@@ -1,4 +1,6 @@
 package FinalExamm.it.academy.service;
 
-public interface CounterService {
+import FinalExamm.it.academy.entity.Counter;
+
+public interface CounterService extends BaseService<Counter> {
 }
